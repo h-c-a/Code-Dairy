@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+		<section name="PermissionMapping" type="Project.UnicInfomediaGroupMapping" allowLocation="true" allowDefinition="Everywhere" />
+  </configSections>
+  <connectionStrings>
+   
+  </connectionStrings>
+  <appSettings>
+   
+  </appSettings>
+  <UnicPermissionMapping>
+    <add mainkey="ABC" key="LLL" value ="789" />
+    <add mainkey="DEF"  key="YYY" value ="864"/>
+    <add mainkey="HIJ"  key="OOO" value ="465" />
+  </UnicPermissionMapping>
+  <system.web>
+    
+  </system.web>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+    </client>
+  </system.serviceModel>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
